@@ -15,8 +15,6 @@ html {
     height: 100%;
 }
 body {
-    min-width: 1000px;
-    max-width: 1260px;
     font: 11px Arial, Helvetica, sans-serif;
     background-color: #dedede;
     color: #999999;
@@ -33,10 +31,12 @@ a {
     margin: 0 auto;
     width: 76%;
     background-color: #ffffff;
+    min-width: 1000px;
+    max-width: 1260px;
 }
 .container {
     margin:0 auto;
-    padding: 45px 10px 10px;
+    padding: 45px 10px 10px 10px;
 }
 .header {
     height: 205px;
@@ -157,7 +157,7 @@ a {
     line-height: 1.5;
 }
 .event-element {
-    padding-left: 70px;
+    padding-left: 80px;
     display: table-cell;
     vertical-align: middle;
 }
@@ -241,12 +241,12 @@ a {
     color: #c83831;
     background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAMAAAD3JJ6EAAAAS1BMVEVMaXHIODHIODHIODHIODHIODHIODHIODHIODHIODHIODHIODHIODHIODHIODHIODHIODHIODHIODHIODHIODHIODHIODHIODHIODEHtVxYAAAAGHRSTlMA2vh8V+nTb/y/LCbD84STTo2WCMwRq555FNJtAAAAO0lEQVR4XjXGxRHAMAAEsXViDHOu/0o9Y9BL3Kfz9vDuf7kkxSjpw6gxpN4H2xtgq9sBwioNI8WclgnI7nQEzd/msFAAAAAASUVORK5CYII=') no-repeat top center;
 }
-.box {
-    position: relative;
-}
+/*.box {*/
+    /*position: relative;*/
+/*}*/
 #rightbar {
-    position: absolute;
-    right: 0;
+    /*position: absolute;*/
+    /*right: 0;*/
     width: 25%;
     float: right;
     background-color: #ebebeb;
